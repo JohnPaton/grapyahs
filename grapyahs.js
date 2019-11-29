@@ -97,7 +97,7 @@ $("#grapyahs").append(
 $("#grapyahs").append(
     cardHTML(
         "Why did the plane crash?", 
-        "Cause the pilot was a loaf of bread!"
+        "Because the pilot was a loaf of bread!"
 ));
 $("#grapyahs").append(
     cardHTML(
