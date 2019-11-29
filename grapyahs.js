@@ -109,6 +109,11 @@ $("#grapyahs").append(
         "Waarom ging de ambitieuze elektricien dood?", 
         "Hij pakte altijd de leiding!"
 ));
+$("#grapyahs").append(
+    cardHTML(
+        "Why did the ambitious electrician get killed?", 
+        "He was always taking charge!"
+));
 
 fixHeights()
 
