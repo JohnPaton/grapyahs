@@ -66,6 +66,11 @@ function cardHTML(front, back, color){
 // @TODO: Store these in a text file and parse them
 $("#grapyahs").append(
     cardHTML(
+        "Wat is het favoriete spelletje van je gootsteen?", 
+        "Verstoppertje."
+));
+$("#grapyahs").append(
+    cardHTML(
         "Wat zeggen je darmen als ze hun teen stoten?", 
         "Verteeering!",
 ));
@@ -101,10 +106,9 @@ $("#grapyahs").append(
 ));
 $("#grapyahs").append(
     cardHTML(
-        "Hoezo ging de ambitieuze elektricien dood?", 
-        "Hij pakte de leiding!"
+        "Waarom ging de ambitieuze elektricien dood?", 
+        "Hij pakte altijd de leiding!"
 ));
-
 
 fixHeights()
 
