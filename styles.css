@@ -1,3 +1,12 @@
+/*disable horizontal scroll*/
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+  min-height:100vh;
+}
+
 /*Flip cards*/
 /*https://stackoverflow.com/a/57512369/4843503*/
 .flip-card {
@@ -41,4 +50,10 @@
 
 .flip-card-back {
   transform: rotateY(180deg);
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width:100%;
 }
