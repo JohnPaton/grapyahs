@@ -69,7 +69,7 @@ function cardHTML(front, back, color){
 $("#grapyahs").append(
     cardHTML(
         "Hoe noem je een fascistische sla?", 
-        "Spinazi.."
+        "Spinazi."
 ));
 $("#grapyahs").append(
     cardHTML(
