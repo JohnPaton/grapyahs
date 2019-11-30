@@ -24,7 +24,7 @@ body {
   .flip-card {width: 32%}
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1140px) {
   .flip-card {width: 24%}
 }
 
