@@ -4,8 +4,10 @@ var green = '#40A41B',
     purple = '#871765',
     pink = '#e12f5e',
     blue = '#1900C1',
+    cyan = '#22a39f',
+    red = '#bf2828',
     grey = '#333333',
-    colors = [green, orange, purple, pink, blue],
+    colors = [green, orange, purple, pink, blue, cyan],
     lastColor
 
 function randomColor(){
@@ -66,6 +68,11 @@ function cardHTML(front, back, color){
 // @TODO: Store these in a text file and parse them
 $("#grapyahs").append(
     cardHTML(
+        "Hoe noem je een fascistische sla?", 
+        "Spinazi.."
+));
+$("#grapyahs").append(
+    cardHTML(
         "Wat is het favoriete spelletje van je gootsteen?", 
         "Verstoppertje."
 ));
@@ -124,7 +131,7 @@ var grid = $("#grapyahs").masonry({
     percentPosition: true
 })
 
-grid.masonry( 'on', 'layoutComplete', fixHeights())
+grid.masonry('on', 'layoutComplete', fixHeights())
 
 // Card flipping functionlity
 $('.flip-card').on('click', function(){
