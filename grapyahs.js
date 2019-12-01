@@ -8,13 +8,14 @@ var green = '#40A41B',
     red = '#bf2828',
     grey = '#333333',
     colors = [green, orange, purple, pink, blue, cyan],
-    lastColor
+    lastColor, secondLastColor
 
 function randomColor(){
     i = Math.floor(Math.random() * colors.length)
     c = colors[i]
-    if (c != lastColor){
+    if ((c != lastColor) && (c != secondLastColor)){
         // encourage variety
+        secondLastColor = lastColor;
         lastColor = c;
         return c
     } else {
@@ -68,6 +69,16 @@ function cardHTML(front, back, color){
 // @TODO: Store these in a text file and parse them
 $("#grapyahs").append(
     cardHTML(
+        "Wat voor mol voelt geen pijn?", 
+        "Een paracetamol."
+));
+$("#grapyahs").append(
+    cardHTML(
+        "Which Dutch province has the best fries?", 
+        "<em>Fries</em>land."
+));
+$("#grapyahs").append(
+    cardHTML(
         "Hoe noem je een fascistische sla?", 
         "Spinazi."
 ));
@@ -89,7 +100,7 @@ $("#grapyahs").append(
 ;$("#grapyahs").append(
     cardHTML(
         "Wat gebeurt als je een tiener de baas van je bedrijf maakt?", 
-        "Die gaat failliYEET"
+        "Die gaat failliYEET."
 ));
 $("#grapyahs").append(
     cardHTML(
