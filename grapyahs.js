@@ -75,7 +75,7 @@ $("#grapyahs").append(
 $("#grapyahs").append(
     cardHTML(
         "Which Dutch province has the best fries?", 
-        "<em>Fries</em>land."
+        "Friesland."
 ));
 $("#grapyahs").append(
     cardHTML(
