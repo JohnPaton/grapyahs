@@ -70,7 +70,7 @@ function cardHTML(front, back, color){
 $("#grapyahs").append(
     cardHTML(
         "What's the most important part of becoming an Australian photographer?", 
-        "You have to have a g'd eye."
+        "You've got to have a g'd eye."
 ));
 $("#grapyahs").append(
     cardHTML(
