@@ -10,17 +10,35 @@ var green = '#40A41B',
     colors = [green, orange, purple, pink, blue, cyan],
     lastColor, secondLastColor
 
+function shuffle(array) {
+  array.sort(() => Math.random() - 0.5);
+}
+
+shuffle(colors)
+
+var randomColorIndex=0
+
 function randomColor(){
-    i = Math.floor(Math.random() * colors.length)
-    c = colors[i]
-    if ((c != lastColor) && (c != secondLastColor)){
-        // encourage variety
-        secondLastColor = lastColor;
-        lastColor = c;
-        return c
-    } else {
-        return randomColor()
+    color = colors[randomColorIndex]
+    randomColorIndex += 1
+
+    if (randomColorIndex == colors.length) {
+        shuffle(colors);
+        randomColorIndex = 0;
     }
+
+    return color
+
+    // i = Math.floor(Math.random() * colors.length)
+    // c = colors[i]
+    // if ((c != lastColor) && (c != secondLastColor)){
+    //     // encourage variety
+    //     secondLastColor = lastColor;
+    //     lastColor = c;
+    //     return c
+    // } else {
+    //     return randomColor()
+    // }
 }
 
 // Card generation
@@ -28,13 +46,13 @@ function sizeText(text){
     chars = text.length
     if (chars < 20) {
         return `<h1>${text}</h1>`
-    } else if (chars < 50){
+    } else if (chars < 40){
         return `<h2>${text}</h2>`
-    } else if (chars < 90){
+    } else if (chars < 60){
         return `<h3>${text}</h3>`
-    } else if (chars < 140){
+    } else if (chars < 90){
         return `<h4>${text}</h4>`
-    } else if (chars < 200){
+    } else if (chars < 120){
         return `<h5>${text}</h5>`
     } else {
         return text
