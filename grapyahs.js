@@ -87,6 +87,11 @@ function cardHTML(front, back, color){
 // @TODO: Store these in a text file and parse them
 $("#grapyahs").append(
     cardHTML(
+        "What do Germans call little outdoor doors?", 
+        "Wie geht's."
+));
+$("#grapyahs").append(
+    cardHTML(
         "What's the most important part of becoming an Australian photographer?", 
         "You've got to have a g'd eye."
 ));
