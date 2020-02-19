@@ -88,7 +88,7 @@ function cardHTML(front, back, color){
 $("#grapyahs").append(
     cardHTML(
         "What do Germans call little outdoor doors?", 
-        "Wie geht's."
+        "Wee gates."
 ));
 $("#grapyahs").append(
     cardHTML(
