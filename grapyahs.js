@@ -84,7 +84,12 @@ function cardHTML(front, back, color){
     </div>`
 }
 
-// @TODO: Store these in a text file and parse them
+// @TODO: Store these in a text file and parse them]
+$("#grapyahs").append(
+    cardHTML(
+        "What do concrete people say when they sneeze?", 
+        "Sta-choo!"
+));
 $("#grapyahs").append(
     cardHTML(
         "What do Germans call little outdoor doors?", 
