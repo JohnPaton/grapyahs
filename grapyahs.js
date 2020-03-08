@@ -87,6 +87,16 @@ function cardHTML(front, back, color){
 // @TODO: Store these in a text file and parse them]
 $("#grapyahs").append(
     cardHTML(
+        "Hoe noem je iemand die erg van salade houdt?", 
+        "Een leaf-hebber."
+));
+$("#grapyahs").append(
+    cardHTML(
+        "Hoe noem je een hele leuke stofzuiger?", 
+        "Een tofzuiger."
+));
+$("#grapyahs").append(
+    cardHTML(
         "What do concrete people say when they sneeze?", 
         "Sta-choo!"
 ));
