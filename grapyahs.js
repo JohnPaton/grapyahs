@@ -87,6 +87,11 @@ function cardHTML(front, back, color){
 // @TODO: Store these in a text file and parse them]
 $("#grapyahs").append(
     cardHTML(
+        "What would you hear from a grateful onion with a speech impediment?",
+        "Thankshallot!
+));
+$("#grapyahs").append(
+    cardHTML(
         "Hoe noem je iemand die erg van salade houdt?", 
         "Een leaf-hebber."
 ));
