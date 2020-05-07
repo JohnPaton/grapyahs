@@ -88,7 +88,7 @@ function cardHTML(front, back, color){
 $("#grapyahs").append(
     cardHTML(
         "What would you hear from a grateful onion with a speech impediment?",
-        "Thankshallot!
+        "Thankshallot!"
 ));
 $("#grapyahs").append(
     cardHTML(
