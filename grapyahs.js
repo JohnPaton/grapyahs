@@ -87,6 +87,11 @@ function cardHTML(front, back, color){
 // @TODO: Store these in a text file and parse them]
 $("#grapyahs").append(
     cardHTML(
+        "What does a pilot do when he gets cold food at a restaurant?",
+        "He complanes."
+));
+$("#grapyahs").append(
+    cardHTML(
         "What would you hear from a grateful onion with a speech impediment?",
         "Thankshallot!"
 ));
