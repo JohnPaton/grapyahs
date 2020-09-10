@@ -84,7 +84,12 @@ function cardHTML(front, back, color){
     </div>`
 }
 
-// @TODO: Store these in a text file and parse them]
+// @TODO: Store these in a text file and parse them
+$("#grapyahs").append(
+    cardHTML(
+        "What do you call it when you eat a bowl of cold salsa?",
+        "Gazpnacho."
+));
 $("#grapyahs").append(
     cardHTML(
         "What does a pilot do when he gets cold food at a restaurant?",
