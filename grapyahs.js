@@ -87,6 +87,11 @@ function cardHTML(front, back, color){
 // @TODO: Store these in a text file and parse them
 $("#grapyahs").append(
     cardHTML(
+        "Why are Dutch dogs so good at poker?",
+        "Because they all know how to blaf."
+));
+$("#grapyahs").append(
+    cardHTML(
         "Waar presenteren verloskundigen de resultaten van hun onderzoeken?",
         "Bij een persconferentie."
 ));
