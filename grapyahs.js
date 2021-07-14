@@ -87,6 +87,11 @@ function cardHTML(front, back, color){
 // @TODO: Store these in a text file and parse them
 $("#grapyahs").append(
     cardHTML(
+        "What do you call a pasta tube without any friends?",
+        "A cannelonely."
+));
+$("#grapyahs").append(
+    cardHTML(
         "Why are Dutch dogs so good at poker?",
         "Because they all know how to blaf."
 ));
