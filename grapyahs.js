@@ -88,7 +88,7 @@ function cardHTML(front, back, color){
 $("#grapyahs").append(
     cardHTML(
         "What do you call a pasta tube without any friends?",
-        "A cannelonely."
+        "Cannelonely."
 ));
 $("#grapyahs").append(
     cardHTML(
