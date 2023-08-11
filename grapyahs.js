@@ -87,6 +87,11 @@ function cardHTML(front, back, color){
 // @TODO: Store these in a text file and parse them
 $("#grapyahs").append(
     cardHTML(
+        "Which animal gets their emails responded to the fastest?",
+        "The sea urgent."
+));
+$("#grapyahs").append(
+    cardHTML(
         "Welk is de meest flexibele pasta?",
         "Spagaatti."
 ));
